@@ -16,4 +16,7 @@ describe('method parse', () => {
   it('parse method,should get method name', () => {
     expect(parse.methodName).toEqual('koa');
   });
+  it('parse method,should get response', () => {
+    expect(parse.response).toEqual('number');
+  });
 });

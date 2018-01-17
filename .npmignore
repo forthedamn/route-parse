@@ -1,3 +1,4 @@
 node_modules
-lib/*.ts
 test/*.ts
+index.ts
+lib/*.ts

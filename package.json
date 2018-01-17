@@ -1,13 +1,17 @@
 {
   "name": "route-parse",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "AST for koa-decorator and koa-router-decorators",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && jest"
+    "test": "tsc && DEBUG=route-parse jest"
   },
-  "keywords": ["AST", "koa-route", "route-parse"],
-  "author": "",
+  "keywords": [
+    "AST",
+    "koa-route",
+    "route-parse"
+  ],
+  "author": "zhongguoxin <zhongguoxin@meituan.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^22.0.1",
